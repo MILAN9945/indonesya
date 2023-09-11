@@ -1,0 +1,90 @@
+ .container {}
+
+ .header-logo {
+     color: #FFF;
+     font-feature-settings: 'clig' off, 'liga' off;
+     font-family: Roboto;
+     font-size: 23.961px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 80.5%;
+     /* 19.288px */
+     letter-spacing: 0.315px;
+     text-transform: uppercase;
+ }
+
+ .header-link {
+     color: #FFF;
+     font-family: DM Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     text-transform: uppercase;
+ }
+
+ /* меін */
+ .main-text {
+     color: rgba(255, 255, 255, 0.80);
+     text-align: center;
+     font-family: DM Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 150%;
+     /* 30px */
+ }
+
+ .hero-title {
+     font-family: Roboto;
+     font-size: 120px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 130px;
+     /* 108.333% */
+     text-transform: uppercase;
+ }
+
+ .hero-button {
+     display: flex;
+     width: 271.141px;
+     height: 82px;
+     padding: 20px;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     flex-shrink: 0;
+ }
+
+ .card-title2 {
+     color: #DD2242;
+     font-family: Roboto;
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: normal;
+     text-transform: uppercase;
+ }
+
+ .card-title {
+     font-family: DM Sans;
+     font-size: 26.409px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 41.081px;
+     /* 155.556% */
+ }
+
+ .card-text {
+     color: #939393;
+     font-feature-settings: 'clig' off, 'liga' off;
+
+     /* Paragraph Light */
+     font-family: DM Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px;
+     /* 155.556% */
+     letter-spacing: 0.5px;
+ }
