@@ -301,7 +301,7 @@
      /* 90px */
  }
 
- .getting-title1 {
+ .getting-number {
      color: var(--White, #FFF);
      text-align: center;
      font-family: DM Sans;
@@ -312,7 +312,7 @@
      /* 144.444% */
  }
 
- .getting-title2 {
+ .getting-subtitle {
      color: var(--Blue---Background, #010A20);
 
      /* H4 */
