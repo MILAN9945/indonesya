@@ -1,6 +1,10 @@
- .container { 
-    border: solid red;
-   
+ .container {
+     border: solid red;
+
+ }
+
+ .header{
+    background: #000;
  }
 
  .header-logo {
@@ -11,7 +15,6 @@
      font-style: normal;
      font-weight: 900;
      line-height: 80.5%;
-     /* 19.288px */
      letter-spacing: 0.315px;
      text-transform: uppercase;
  }
@@ -27,6 +30,17 @@
  }
 
  /* меін */
+
+ .hero-title {
+     color: #FFF;
+     font-family: Roboto;
+     font-size: 120px;
+     font-style: normal;
+     font-weight: 900;
+     line-height: 130px;
+     text-transform: uppercase;
+ }
+
  .hero-text {
      color: rgba(255, 255, 255, 0.80);
      text-align: center;
@@ -35,20 +49,9 @@
      font-style: normal;
      font-weight: 700;
      line-height: 150%;
-     /* 30px */
  }
 
- .daimond-title {
-     font-family: Roboto;
-     font-size: 120px;
-     font-style: normal;
-     font-weight: 900;
-     line-height: 130px;
-     /* 108.333% */
-     text-transform: uppercase;
- }
-
- .daimond-button {
+ .hero-button {
      display: flex;
      width: 271.141px;
      height: 82px;
@@ -57,9 +60,30 @@
      align-items: center;
      gap: 10px;
      flex-shrink: 0;
+     border-radius: 211px;
+     background: var(--Main-Red, #DD2242);
+     color: rgba(255, 255, 255, 0.80);
+     text-align: center;
+     font-family: DM Sans;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 150%;
+
  }
 
- .daimond-title2 {
+ .daimond-title {
+     color: #FFF;
+     font-family: DM Sans;
+     font-size: 26.409px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 41.081px;
+ }
+
+
+
+ .daimond-namber {
      color: #DD2242;
      font-family: Roboto;
      font-size: 16px;
@@ -69,67 +93,62 @@
      text-transform: uppercase;
  }
 
- .daimond-title {
-     font-family: DM Sans;
-     font-size: 26.409px;
-     font-style: normal;
-     font-weight: 700;
-     line-height: 41.081px;
-     /* 155.556% */
- }
+
 
  .daimond-text {
      color: #939393;
      font-feature-settings: 'clig' off, 'liga' off;
-
-     /* Paragraph Light */
      font-family: DM Sans;
      font-size: 18px;
      font-style: normal;
      font-weight: 400;
      line-height: 28px;
-     /* 155.556% */
      letter-spacing: 0.5px;
  }
 
  .articles-title {
      color: var(--White, #FFF);
      font-feature-settings: 'clig' off, 'liga' off;
-
-     /* H3 */
      font-family: DM Sans;
      font-size: 42px;
      font-style: normal;
      font-weight: 700;
      line-height: 50px;
-     /* 119.048% */
  }
 
- .articles-text1 {
-     color: var(--Text-Lighten, #E0E0E0);
 
-     /* Paragraph */
-     font-family: DM Sans;
-     font-size: 18px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: 28px;
-     /* 155.556% */
-     letter-spacing: 0.18px;
- }
 
  .articles-text {
      color: var(--neutral-white, #FFF);
      text-align: center;
-
-     /* CTA */
      font-family: DM Sans;
      font-size: 18px;
      font-style: normal;
      font-weight: 700;
      line-height: 150%;
-     /* 27px */
  }
+
+ .articles-button {
+     display: flex;
+     width: 179.813px;
+     padding: 16px 24px;
+     justify-content: center;
+     align-items: center;
+     gap: 24px;
+
+     border-radius: 32px;
+     background: #DD2242;
+
+     color: var(--neutral-white, #FFF);
+     text-align: center;
+     font-family: DM Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 150%;
+ }
+
+ /* explore */
 
  .explore-title {
      color: var(--Blue---Background, #010A20);
@@ -139,10 +158,23 @@
      font-style: normal;
      font-weight: 700;
      line-height: 150%;
-     /* 75px */
  }
 
- .explore-title1 {
+
+
+ .explore-text {
+     color: var(--Text-Lighten, #E0E0E0);
+     text-align: center;
+     font-feature-settings: 'clig' off, 'liga' off;
+     font-family: DM Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px;
+     letter-spacing: 0.5px;
+ }
+
+ .Numbers-title {
      color: #FFF;
      text-align: center;
      font-family: DM Sans;
@@ -150,10 +182,23 @@
      font-style: normal;
      font-weight: 700;
      line-height: 150%;
-     /* 90px */
+
  }
 
- .explore-title2 {
+
+ .Numbers-info {
+     color: var(--Text-Lighten, #E0E0E0);
+     text-align: center;
+     font-feature-settings: 'clig' off, 'liga' off;
+     font-family: DM Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px;
+     letter-spacing: 0.5px;
+ }
+
+ .Numbers-subtitle {
      color: #DD2242;
      text-align: center;
      font-family: DM Sans;
@@ -161,22 +206,18 @@
      font-style: normal;
      font-weight: 700;
      line-height: 49.16px;
-     /* 116.667% */
      letter-spacing: 0.386px;
  }
 
- .explore-text {
+ .Numbers-text {
      color: var(--Text-Lighten, #E0E0E0);
      text-align: center;
      font-feature-settings: 'clig' off, 'liga' off;
-
-     /* Paragraph Light */
      font-family: DM Sans;
      font-size: 18px;
      font-style: normal;
      font-weight: 400;
      line-height: 28px;
-     /* 155.556% */
      letter-spacing: 0.5px;
  }
 
@@ -212,14 +253,24 @@
  .map-button {
      color: var(--neutral-white, #FFF);
      text-align: center;
-
-     /* CTA */
      font-family: DM Sans;
      font-size: 18px;
      font-style: normal;
      font-weight: 700;
      line-height: 150%;
-     /* 27px */
+
+
+     display: flex;
+     width: 210px;
+     height: 64px;
+     padding: 16px 24px;
+     justify-content: center;
+     align-items: center;
+     gap: 24px;
+     flex-shrink: 0;
+
+     border-radius: 122px;
+     background: #DD2242;
  }
 
  .video-title {
@@ -309,7 +360,8 @@
      font-style: normal;
      font-weight: 500;
      line-height: 38.146px;
-     /* 144.444% */
+
+
  }
 
  .getting-subtitle {
@@ -337,14 +389,27 @@
  .getting-button {
      color: var(--neutral-white, #FFF);
      text-align: center;
-
-     /* CTA */
      font-family: DM Sans;
      font-size: 18px;
      font-style: normal;
      font-weight: 700;
      line-height: 150%;
-     /* 27px */
+
+     display: flex;
+     width: 210px;
+     height: 64px;
+     padding: 16px 24px;
+     justify-content: center;
+     align-items: center;
+     gap: 24px;
+     flex-shrink: 0;
+
+     border-radius: 122px;
+     background: #DD2242;
+ }
+
+ .footer {
+     background: var(--Blue---Background, #010A20);
  }
 
  .logo {
@@ -395,5 +460,3 @@
      /* 155.556% */
      letter-spacing: 0.5px;
  }
-
- 
