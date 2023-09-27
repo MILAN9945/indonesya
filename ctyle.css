@@ -5,6 +5,11 @@
      margin-right: auto;
  }
 
+
+ .header-text {
+     display: flex;
+ }
+
  .header-contair {
      display: flex;
 
@@ -42,6 +47,13 @@
      font-weight: 700;
      line-height: normal;
      text-transform: uppercase;
+ }
+
+
+ .header-list {
+     display: flex;
+     gap: 23px;
+
  }
 
  /* меін */
