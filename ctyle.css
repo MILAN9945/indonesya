@@ -1,5 +1,5 @@
  .container {
-     width: 1640px;
+     width: 1670px;
      outline: solid red;
      margin-left: auto;
      margin-right: auto;
@@ -189,7 +189,7 @@
      letter-spacing: 0.5px;
  }
 
- .Numbers-title {
+ .numbers-title {
      color: #FFF;
      text-align: center;
      font-family: DM Sans;
@@ -201,7 +201,7 @@
  }
 
 
- .Numbers-info {
+ .numbers-info {
      color: var(--Text-Lighten, #E0E0E0);
      text-align: center;
      font-feature-settings: 'clig' off, 'liga' off;
@@ -213,7 +213,7 @@
      letter-spacing: 0.5px;
  }
 
- .Numbers-subtitle {
+ .numbers-subtitle {
      color: #DD2242;
      text-align: center;
      font-family: DM Sans;
@@ -224,7 +224,7 @@
      letter-spacing: 0.386px;
  }
 
- .Numbers-text {
+ .numbers-text {
      color: var(--Text-Lighten, #E0E0E0);
      text-align: center;
      font-feature-settings: 'clig' off, 'liga' off;
