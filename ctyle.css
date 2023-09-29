@@ -8,6 +8,7 @@
 
  .header-text {
      display: flex;
+
  }
 
  .header-contair {
@@ -53,6 +54,12 @@
  .header-list {
      display: flex;
      gap: 23px;
+
+ }
+
+
+ .header-menu{
+    display: flex;
 
  }
 
