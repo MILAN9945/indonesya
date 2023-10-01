@@ -38,6 +38,9 @@
      line-height: 80.5%;
      letter-spacing: 0.315px;
      text-transform: uppercase;
+   display: block;
+   margin-left: 64.03px;
+   
  }
 
  .header-link {
@@ -58,10 +61,12 @@
  }
 
 
- .header-menu{
-    display: flex;
-
+ .header-menu {
+     display: flex;
+     margin-left: auto;
  }
+
+
 
  /* меін */
 
