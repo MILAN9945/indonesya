@@ -38,9 +38,12 @@
      line-height: 80.5%;
      letter-spacing: 0.315px;
      text-transform: uppercase;
-   display: block;
-   margin-left: 64.03px;
-   
+     display: block;
+     margin-left: 64.03px;
+     width: 128px;
+
+     align-items: center;
+
  }
 
  .header-link {
@@ -57,18 +60,25 @@
  .header-list {
      display: flex;
      gap: 23px;
-
+     align-items: center;
+     margin-left: 64px;
  }
 
 
  .header-menu {
      display: flex;
-     margin-left: auto;
+     margin-left: 842px;
+     align-items: center;
  }
 
 
 
  /* меін */
+ .hero {
+     background-color: #000;
+
+ }
+
 
  .hero-title {
      color: #FFF;
@@ -78,6 +88,9 @@
      font-weight: 900;
      line-height: 130px;
      text-transform: uppercase;
+     width: 627px;
+     margin-left: 277px;
+     padding-top: 195px;
  }
 
  .hero-text {
@@ -108,7 +121,8 @@
      font-style: normal;
      font-weight: 700;
      line-height: 150%;
-
+     margin-left: 277px;
+     margin-top: 21px;
  }
 
  .daimond-title {
@@ -118,9 +132,24 @@
      font-style: normal;
      font-weight: 700;
      line-height: 41.081px;
+     margin-top: 14px;
  }
 
+ .daimond-item {
+     border: 1px solid #000;
+     opacity: 0.6;
+     background: #000;
 
+ }
+
+ .daimond-list {
+     display: flex;
+     justify-content: center;
+     gap: 191px;
+     width: 1225.638px;
+     height: 210px;
+     flex-shrink: 0;
+ }
 
  .daimond-namber {
      color: #DD2242;
@@ -143,6 +172,7 @@
      font-weight: 400;
      line-height: 28px;
      letter-spacing: 0.5px;
+     width: 210px;
  }
 
  .articles-title {
@@ -155,7 +185,9 @@
      line-height: 50px;
  }
 
-
+ .articles-item {
+     display: flex;
+ }
 
  .articles-text {
      color: var(--neutral-white, #FFF);
@@ -189,6 +221,11 @@
 
  /* explore */
 
+ .explore {
+     background-image: url(./img/heroimage.png);
+ }
+
+
  .explore-title {
      color: var(--Blue---Background, #010A20);
      text-align: center;
@@ -197,6 +234,7 @@
      font-style: normal;
      font-weight: 700;
      line-height: 150%;
+     padding-top: 127px;
  }
 
 
@@ -211,6 +249,19 @@
      font-weight: 400;
      line-height: 28px;
      letter-spacing: 0.5px;
+
+ }
+
+ .explore-list {
+     display: flex;
+     justify-content: center;
+     gap: 31px;
+     margin-top: 45px;
+     padding-bottom: 933px;
+ }
+
+ .numbers {
+     background-image: url(./img/nambersimage.png);
  }
 
  .numbers-title {
@@ -221,7 +272,7 @@
      font-style: normal;
      font-weight: 700;
      line-height: 150%;
-
+     padding-top: 201px;
  }
 
 
@@ -235,6 +286,16 @@
      font-weight: 400;
      line-height: 28px;
      letter-spacing: 0.5px;
+     width: 484px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .numbers-list {
+     display: flex;
+     justify-content: center;
+     margin-top: 39px;
+     padding-bottom: 224px;
  }
 
  .numbers-subtitle {
@@ -258,7 +319,11 @@
      font-weight: 400;
      line-height: 28px;
      letter-spacing: 0.5px;
+     width: 340px;
+
  }
+
+ .map {}
 
  .map-title {
      color: #000;
@@ -272,6 +337,10 @@
      font-weight: 700;
      line-height: 50px;
      /* 119.048% */
+     width: 614px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-top: 249px;
  }
 
  .map-text {
@@ -287,6 +356,11 @@
      line-height: 28px;
      /* 155.556% */
      letter-spacing: 0.5px;
+     width: 470px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 24px;
+     margin-bottom: 36px;
  }
 
  .map-button {
@@ -299,7 +373,7 @@
      line-height: 150%;
 
 
-     display: flex;
+     display: block;
      width: 210px;
      height: 64px;
      padding: 16px 24px;
@@ -310,6 +384,13 @@
 
      border-radius: 122px;
      background: #DD2242;
+     margin-left: auto;
+     margin-right: auto;
+
+ }
+
+ .video {
+     background-image: url(./img/videoimage.png);
  }
 
  .video-title {
@@ -324,6 +405,25 @@
      font-weight: 700;
      line-height: 50px;
      /* 119.048% */
+     width: 1056px;
+     padding-top: 141px;
+     margin-bottom: 67px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+
+
+ .video-subtitle {
+     color: var(--Colors-White, #FFF);
+
+     /* CTA */
+     font-family: "DM Sans";
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 150%;
+     /* 27px */
  }
 
  .video-title1 {
@@ -336,6 +436,20 @@
      font-weight: 700;
      line-height: 150%;
      /* 27px */
+     width: 1056px;
+     height: 594px;
+
+     margin-left: auto;
+     margin-right: auto;
+     
+ }
+
+ .video-item{
+    display: flex;
+ }
+
+ .video-list {
+     display: flex;
  }
 
  .video-text {
@@ -350,6 +464,8 @@
      line-height: 28px;
      /* 155.556% */
      letter-spacing: 0.5px;
+
+     width: 334px;
  }
 
  .photogallery-title {
@@ -377,6 +493,12 @@
      line-height: 28px;
      /* 155.556% */
      letter-spacing: 0.18px;
+ }
+
+ .photogallery-list{
+    display: flex;
+ 
+    flex-wrap: wrap;
  }
 
  .getting-title {
