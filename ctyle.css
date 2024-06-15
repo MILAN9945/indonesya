@@ -441,11 +441,11 @@
 
      margin-left: auto;
      margin-right: auto;
-     
+
  }
 
- .video-item{
-    display: flex;
+ .video-item {
+     display: flex;
  }
 
  .video-list {
@@ -466,6 +466,13 @@
      letter-spacing: 0.5px;
 
      width: 334px;
+ }
+
+ .video-list{
+    margin-top: 125px;
+    gap: 75px;
+    display: flex;
+    justify-content: center;
  }
 
  .photogallery-title {
@@ -495,10 +502,11 @@
      letter-spacing: 0.18px;
  }
 
- .photogallery-list{
-    display: flex;
- 
-    flex-wrap: wrap;
+ .photogallery-list {
+     display: flex;
+   flex-direction: column;
+
+    gap:30px ;
  }
 
  .getting-title {
